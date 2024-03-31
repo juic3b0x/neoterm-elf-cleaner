@@ -59,7 +59,7 @@ along with neoterm-elf-cleaner.  If not, see
 
 /* Default to api level 21 unless arg --api-level given  */
 uint8_t supported_dt_flags_1 = (DF_1_NOW | DF_1_GLOBAL);
-int api_level = 21;
+int api_level = @NEOTERM_PKG_API_LEVEL@;
 
 bool dry_run = false;
 bool quiet = false;
